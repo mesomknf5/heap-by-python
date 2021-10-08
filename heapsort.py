@@ -1,5 +1,6 @@
 # Python program for implementation of heap Sort
-
+#helkjefojj kjdfj kjdfioj kjdf jdjfkldj
+print(3)
 # To heapify subtree rooted at index i.
 # n is size of heap
 def heapify(arr, n, i):
@@ -41,7 +42,11 @@ def heapSort(arr):
 # Driver code to test above
 
 
-arr = [ 12, 11, 13, 5, 6, 7, 50, 32, 434, 1, 3, 5, 6, 7]
+
+arr = [ 12, 11, 13, 5, 6, 7, 50, 32, 434, 1, 3, 5, 6, 7, 50, 32, 434, 1, 3]
+#here is new arr
+cout<<3;
+
 
 heapSort(arr)
 n = len(arr)
