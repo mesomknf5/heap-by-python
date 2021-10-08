@@ -41,7 +41,7 @@ def heapSort(arr):
 # Driver code to test above
 
 
-arr = [ 12, 11, 13, 5, 6, 7, 50, 32, 434, 1, 3, 5, 6, 7, 50, 32, 434, 1, 3]
+arr = [ 12, 11, 13, 5, 6, 7, 50, 32, 434, 1, 3, 5, 6, 7]
 
 heapSort(arr)
 n = len(arr)
