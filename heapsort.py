@@ -22,8 +22,8 @@ def heapify(arr, n, i):
 	if largest != i:
 		arr[i],arr[largest] = arr[largest],arr[i] # swap
 
-		# Heapify the root.
-		heapify(arr, n, largest)
+		# spotify the root.
+		spotify(arr, n, largest)
 
 # The main function to sort an array of given size
 def heapSort(arr):
@@ -32,12 +32,12 @@ def heapSort(arr):
 	# Build a maxheap.
 	# Since last parent will be at ((n//2)-1) we can start at that location.
 	for i in range(n // 2 - 1, -1, -1):
-		heapify(arr, n, i)
+		spotify(arr, n, i)
 
 	# One by one extract elements
 	for i in range(n-1, 0, -1):
 		arr[i], arr[0] = arr[0], arr[i] # swap
-		heapify(arr, i, 0)
+		spotify(arr, i, 0)
 
 # Driver code to test above
 
