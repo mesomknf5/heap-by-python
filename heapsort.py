@@ -22,8 +22,11 @@ def heapifyInRoot(arr, n, i):
 	if largest != i:
 		arr[i],arr[largest] = arr[largest],arr[i] # swap
 
-		# Heapify the root.
-		heapifyInRoot(arr, n, largest)
+
+
+
+
+
 
 # The main function to sort an array of given size
 def heapSort(arr):
@@ -32,18 +35,22 @@ def heapSort(arr):
 	# Build a maxheap.
 	# Since last parent will be at ((n//2)-1) we can start at that location.
 	for i in range(n // 2 - 1, -1, -1):
+
 		heapifyInRoot(arr, n, i)
+
+		spotify(arr, n, i)
+
 
 	# One by one extract elements
 	for i in range(n-1, 0, -1):
 		arr[i], arr[0] = arr[0], arr[i] # swap
-		heapifyInRoot(arr, i, 0)
+
 
 # Driver code to test above
 
 
 
-arr = [ 12, 11, 13, 5, 6, 7, 50, 32, 434, 1, 3, 5, 6, 7, 50, 32, 434, 1, 3]
+arr = [ 12, 11, 13, 5, 6, 7, 50, 32, 434, 1, 3, 5, 6, 7, 50, 32, 434, 6,7]
 #here is new arr
 cout<<3;
 
