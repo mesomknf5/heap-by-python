@@ -23,7 +23,7 @@ def heapifyInRoot(arr, n, i):
 		arr[i],arr[largest] = arr[largest],arr[i] # swap
 
 
-
+# Heapsort is a comparison based sorting technique based on a Binary Heap data structure.
 
 
 
